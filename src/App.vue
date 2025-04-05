@@ -7,9 +7,9 @@ const ToDoList = ref([
 </script>
 
 <template>
-  <h1 class="  justify-center text-center my-10 text-4xl font-bold  text-neutral-700">Saqline Zaman To Do List </h1>
+  <h1 class="justify-center text-center my-10 text-4xl font-bold  text-neutral-700 ">Saqline Zaman To Do List </h1>
   <hr class=" mx-116 border-t-3 ">
-<div class="">
+<div class=" p-3">
   <list :tusks="ToDoList"/>
 </div>
 

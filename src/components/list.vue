@@ -22,7 +22,7 @@ newTusk.value ={
 <template>
      <!-- Form to Add Task -->
      <div class="flex justify-center mt-16">
-        <div class="bg-white p-6 rounded-lg shadow-md mb-8 w-full max-w-3/5">
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8 w-full md:max-w-3/5">
              <div class="mb-4">
                  <label for="task" class="block text-lg font-medium text-gray-700">New Task</label>
                 <input type="text" id="task" name="task"
